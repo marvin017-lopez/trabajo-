@@ -1,0 +1,185 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: libre barkerville;
+}
+
+h1, h2, h3, h4, h5, h6{
+    color: blue;
+    font-weight: 300;
+}
+
+.contenedor{
+    width: 90%;
+    max-width: 1000px;
+    margin: auto;
+}
+
+.contenedor1{
+    width: 90%;
+    max-width: 1000px;
+    margin: auto;
+    overflow: hidden;
+    padding: 60px 0;  
+}
+
+h1{
+    font-size: 50px;
+}
+
+/* header */
+
+header::after{
+    content: "";
+    display: block;
+    margin-bottom: 80px;
+}
+
+nav{
+    width: 100%;
+    height: 80px;
+    background: wheat;
+    border-bottom: 1px solid transparent;
+    box-shadow: 1px 1px 10px 0 rgba(0, 0, 0, .2);
+    position: fixed;
+    top: 0;
+    z-index: 100;
+    cursor: pointer;
+    /* transition: ease-in-out 0.5s; */
+}
+
+.nav{
+    display: flex;
+    justify-content: space-between;
+    height: 80px;
+    width: 100%;
+    align-items: center;
+}
+
+.nav .logo{
+    height: 80px;
+}
+
+.nav .logo img{
+    background: white;
+    height: 100%;
+    vertical-align: top;
+}
+
+
+.contenido-header{
+    width: 100%;
+    height: 600px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.contenido-header >img{
+    width: 550;
+}
+
+.texto-questions p{
+    width: 100%;
+    margin-top: 14px;
+    color: slategray;
+}
+
+.contenido-header a{
+    margin-top: 28px 0 0 0;
+    width: 130px;
+    display: inline-block;
+    background: aqua;
+    text-align: center;
+    color: bisque;
+    padding: 12px 0;
+    text-decoration: none;
+    font-weight: 400;
+    text-transform: uppercase;
+    font-size: 14px;
+    border-radius: 5px;
+    box-shadow: 0 8px 32px rgba(31, 222, 130, .46);
+}
+
+.nav.enlaces-header a{
+    color: gray;
+    text-decoration: none;
+}
+
+.hamburguer{
+    width: 80px;
+    height: 80;
+    background: rgb(206, 225, 238);
+    text-align: center;
+    z-index: 100;
+    cursor: pointer;
+}
+    
+
+.hamburguer i{
+    font-size: 25px;
+    line-height: 80px;
+}
+
+.textos-header{
+    margin: 0 0 0 30px;
+}
+
+
+.titulo{
+    font-size: 50px;
+}
+
+/* abuout us */
+
+
+.about-us{
+    background: white;
+}
+
+.contenedor-articulo{
+    flex-wrap: wrap;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.articulo{
+    width: 29%;
+    background: white;
+    margin-bottom: 30px;
+    border-radius: 10px;
+    padding: 45px 30px 60px 30px;
+    transition: 0.5s;
+}
+
+.articulo :hover{
+    box-shadow: 0 4px 10px rgba(17, 29, 48, .26);
+}
+
+.articulo >li{
+    color: rgb(13, 5, 85);
+    display: inline-block;
+    height: 70px;
+    text-align: center;
+    padding-top: 30px;
+    border-radius: 50%;
+    background: aquamarine;
+}
+.articulo >a{
+    color: rgb(2, 0, 8);
+    font-weight: 400;
+    text-decoration: none;
+    background: rgb(188, 184, 197);
+    
+}
+
+.articulo >a :hover{
+    color: aqua;
+    transition: color .5s;
+    
+    
+}
